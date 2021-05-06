@@ -1,0 +1,124 @@
+body{
+    height: 100%;
+  background-color: #ead3cb;
+  margin: 0 auto;
+}
+
+.main{
+ background-color: #98ddca;
+ text-align: center;
+border: 10px #fffbdf solid;
+border-radius: 30px;
+border-color: #000000;
+min-height: 30vh;
+padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-size: 3rem;
+font-weight: 50;
+text-align: center;
+}
+
+.todo{
+    font-weight: 800;
+}
+
+.inputmain{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.inputmain .input{
+padding: 0.5rem 1rem;
+height: 50px;
+outline: none;
+width: 458px;
+font-size: 1.15rem;
+margin: 0.225rem;
+border-radius: 25px;
+
+}
+.addButton{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+
+.addButton:hover{
+	opacity: 0.3;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.item{
+
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid;
+}
+
+.inputitem{
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 35px;
+}
+
+
+.editButton{
+
+    outline: none;
+    border: none;
+    margin: 0 0.75rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    padding: 5px;
+    font-size: larger;
+    width: 70px;
+}
+
+
+.removeButton{
+
+    outline: none;
+    border: none;
+    margin: 0 0.75rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    padding: 5px;
+    font-size: larger;
+}
